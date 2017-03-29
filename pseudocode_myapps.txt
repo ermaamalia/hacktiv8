@@ -1,0 +1,46 @@
+Inisialisasi variable 'buatNama' pada fungsi 'nama'
+Simpan 'buatNama'
+Mengembalikan fungsi nilai fungsi 'nama' pada fungsi baru
+IF 'nama' sama dengan '' THEN
+  alert 'Please insert your name!'
+  Tampilkan 'Please insert your name!'
+ELSE 
+  alert 'Welcome ' + nama + ' to singervote.com'
+  Tampilkan 'Welcome ' + nama + ' to singervote.com'
+ENDIF
+ENDFUNCTION
+
+Inisialisasi fungsi 'artist'
+  Inisialisasi variable 'buah'
+  Simpan 'buah'
+  Masukkan array 'Bruno Mars', 'Taylor Swift', 'Justin Bieber', 'Maroon5'
+  Inisialisasi variable 'teks' dengan nilai kosong
+  Inisialisasi variable 'i'
+  FOR 'i' sama dengan 0 'i' kurang dari 'buah'.length 'i' diperbanyak
+    Hitung 'teks' sama dengan teks ditambah 'buah' array[i] ditambah ', '
+    ENDFOR
+    alert 'Choose 1 of those artist: ' ditambah 'teks'
+    Tampilkan 'teks'
+ENDFUNCTION
+
+Inisialisasi variable 'buatVote' pada fungsi 'vote'
+Mengembalikan fungsi nilai fungsi 'vote' pada fungsi baru
+IF 'vote' sama dengan '' THEN
+  alert 'Please insert your artist name to vote!'
+  Tampilkan 'Please insert your artist name to vote!'
+ELSE 
+  alert 'You vote '+ vote + ' .Thank you for the vote.'
+  Tampilkan 'You vote '+ vote + ' .Thank you for the vote.'
+ENDIF
+ENDFUNCTION
+
+Inisialisasi fungsi 'main'
+  Inisialisasi variable 'sapaanPertama' sama dengan 'buatNama' input nama
+  Panggil fungsi 'sapaanPertama'
+  Panggil fungsi 'artist'
+  Inisialisasi variable 'hasilVote' sama dengan 'hasilVote' input nama
+  Panggil fungsi 'hasilVote'
+ENDFUNCTION
+
+Panggil fungsi 'main'
+  
